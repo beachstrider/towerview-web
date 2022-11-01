@@ -7,8 +7,8 @@ You will need aws-cli and amplify-cli
 ```
 $ aws configure --profile towerview
 
-AWS Access Key ID [None]: AKIASE2Z56TZSJCH5SE6
-AWS Secret Access Key [None]: 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
+AWS Access Key ID [None]: XXXXXXXXXXXXXXXXXXXX
+AWS Secret Access Key [None]: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 Default region name [None]: ap-northeast-2
 Default output format [None]:
 
