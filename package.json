@@ -1,0 +1,75 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/ui-components": "^0.10.0",
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/data-grid": "^4.0.0-alpha.17",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@sentry/react": "^5.29.2",
+    "@sentry/tracing": "^5.29.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/chart.js": "^2.9.11",
+    "@types/jest": "^24.0.25",
+    "@types/node": "^12.12.24",
+    "@types/react": "^16.9.17",
+    "@types/react-chartjs-2": "^2.5.7",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-map-gl": "^5.1.0",
+    "@types/react-router-dom": "^5.1.3",
+    "autoprefixer": "^9.8.6",
+    "aws-amplify": "^2.2.6",
+    "aws-amplify-react": "^3.1.6",
+    "chart.js": "^2.9.3",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "postcss": "^7.0.35",
+    "react": "^16.12.0",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "^16.12.0",
+    "react-map-gl": "^5.2.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^4.0.1",
+    "typescript": "^3.7.4",
+    "video.js": "^7.10.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "snyk": "./node_modules/.bin/snyk test",
+    "amplify:createsensorvalue": "babel src/graphql/mutations.ts -o amplify/backend/function/createsensorvalue/src/mutations.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run-script snyk"
+    }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@types/video.js": "^7.3.11",
+    "snyk": "^1.437.3"
+  }
+}

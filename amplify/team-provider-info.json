@@ -1,0 +1,57 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-towerview-dev-14750-authRole",
+      "UnauthRoleArn": "arn:aws:iam::147828110579:role/amplify-towerview-dev-14750-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::147828110579:role/amplify-towerview-dev-14750-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-towerview-dev-14750-deployment",
+      "UnauthRoleName": "amplify-towerview-dev-14750-unauthRole",
+      "StackName": "amplify-towerview-dev-14750",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:147828110579:stack/amplify-towerview-dev-14750/0af802b0-7209-11eb-9279-02861d29b75a",
+      "AmplifyAppId": "dchyfkd8azvlv"
+    },
+    "categories": {
+      "auth": {
+        "iotdashboardbce44907": {}
+      },
+      "function": {
+        "listsensors": {
+          "deploymentBucketName": "amplify-towerview-dev-14750-deployment",
+          "s3Key": "amplify-builds/listsensors-51785a30346658484a56-build.zip"
+        },
+        "getsensor": {
+          "deploymentBucketName": "amplify-towerview-dev-14750-deployment",
+          "s3Key": "amplify-builds/getsensor-576d7568387461416935-build.zip"
+        },
+        "createsensorvalue": {
+          "deploymentBucketName": "amplify-towerview-dev-14750-deployment",
+          "s3Key": "amplify-builds/createsensorvalue-3334316e586362756b51-build.zip"
+        }
+      }
+    }
+  },
+  "stg": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-towerview-stg-201512-authRole",
+      "UnauthRoleArn": "arn:aws:iam::147828110579:role/amplify-towerview-stg-201512-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::147828110579:role/amplify-towerview-stg-201512-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-towerview-stg-201512-deployment",
+      "UnauthRoleName": "amplify-towerview-stg-201512-unauthRole",
+      "StackName": "amplify-towerview-stg-201512",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:147828110579:stack/amplify-towerview-stg-201512/4e3be580-7215-11eb-b912-0acb57c45f00",
+      "AmplifyAppId": "dchyfkd8azvlv"
+    },
+    "categories": {
+      "auth": {
+        "iotdashboardbce44907": {}
+      },
+      "function": {
+        "listsensors": {},
+        "getsensor": {},
+        "createsensorvalue": {}
+      }
+    }
+  }
+}
